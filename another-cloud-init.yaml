@@ -1,0 +1,10 @@
+#cloud-config
+# vim: syntax=yaml
+
+write_files:
+  - path: /root/yet_another_sample_file
+    owner: root:root
+    permissions: 0644
+    content: |
+      [Unit]
+      Description=xxxx
