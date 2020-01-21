@@ -1,0 +1,10 @@
+#cloud-config
+# vim: syntax=yaml
+
+write_files:
+  - path: /root/another_sample_file
+    owner: root:root
+    permissions: 0644
+    content: |
+      [Unit]
+      Description=truc machin
